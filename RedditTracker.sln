@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker", "RedditTracker\RedditTracker.csproj", "{03678AB4-8FF0-4C45-945F-38337D6B450B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker.Services", "RedditTracker.Services\RedditTracker.Services.csproj", "{8CE13235-C19F-4E67-9D5C-18B693E2302C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker.ServiceContracts", "RedditTracker.ServiceContracts\RedditTracker.ServiceContracts.csproj", "{5212F5BA-4F6D-4183-BAD4-7E441707B38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker.Models", "RedditTracker.Models\RedditTracker.Models.csproj", "{18D8295E-374C-4088-81EA-AC1D0DEB96E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditTracker.HttpClients", "RedditTracker.HttpClients\RedditTracker.HttpClients.csproj", "{0BA577DE-2400-4985-B464-7683DE29B449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03678AB4-8FF0-4C45-945F-38337D6B450B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03678AB4-8FF0-4C45-945F-38337D6B450B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03678AB4-8FF0-4C45-945F-38337D6B450B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03678AB4-8FF0-4C45-945F-38337D6B450B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE13235-C19F-4E67-9D5C-18B693E2302C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE13235-C19F-4E67-9D5C-18B693E2302C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE13235-C19F-4E67-9D5C-18B693E2302C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE13235-C19F-4E67-9D5C-18B693E2302C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5212F5BA-4F6D-4183-BAD4-7E441707B38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5212F5BA-4F6D-4183-BAD4-7E441707B38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5212F5BA-4F6D-4183-BAD4-7E441707B38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5212F5BA-4F6D-4183-BAD4-7E441707B38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D8295E-374C-4088-81EA-AC1D0DEB96E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D8295E-374C-4088-81EA-AC1D0DEB96E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D8295E-374C-4088-81EA-AC1D0DEB96E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D8295E-374C-4088-81EA-AC1D0DEB96E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA577DE-2400-4985-B464-7683DE29B449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA577DE-2400-4985-B464-7683DE29B449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA577DE-2400-4985-B464-7683DE29B449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA577DE-2400-4985-B464-7683DE29B449}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D222181D-5BB5-4E49-92C1-F604A5ED7D1E}
+	EndGlobalSection
+EndGlobal
